@@ -20,7 +20,7 @@ public class Homework2 {
         scan.close();
 
         DecimalFormatSymbols otherSymbols = new DecimalFormatSymbols(Locale.US);
-        DecimalFormat df = new DecimalFormat("#.##########", otherSymbols);
+        DecimalFormat df = new DecimalFormat("#.#", otherSymbols);
 
         double attended = ((double)classesAttended / classesHeld) *100;
 
